@@ -3,7 +3,7 @@ package main
 import (
 	"strings"
 
-	"github.com/davyxu/gosproto/meta"
+	"github.com/BobWong/gosproto/meta"
 )
 
 type fieldModel struct {

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/davyxu/gosproto/meta"
+	"github.com/BobWong/gosproto/meta"
 )
 
 var paramGoOut = flag.String("go_out", "", "golang output filename")

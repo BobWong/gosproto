@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/davyxu/gosproto/meta"
+	"github.com/BobWong/gosproto/meta"
 )
 
 const spCodeTemplate = `
