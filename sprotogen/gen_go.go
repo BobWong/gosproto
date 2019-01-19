@@ -165,7 +165,7 @@ func (self *fieldModel) GoTypeName() string {
 	// 字段类型映射go的类型
 	switch self.Type {
 	case meta.FieldType_Integer:
-		b.WriteString("int")
+		b.WriteString("int64")
 	case meta.FieldType_Bool:
 		b.WriteString("bool")
 	case meta.FieldType_Struct,
