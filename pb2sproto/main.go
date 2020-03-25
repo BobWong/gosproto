@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/bobwong8975789757/pbmeta"
+	"github.com/bobwong89757/pbmeta"
 )
 
 var paramOut = flag.String("outdir", "", "output directory")

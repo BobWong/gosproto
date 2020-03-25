@@ -3,7 +3,7 @@ package meta
 import (
 	"errors"
 	"fmt"
-	"github.com/bobwong8975789757/golexer"
+	"github.com/bobwong89757/golexer"
 )
 
 type lazyField struct {

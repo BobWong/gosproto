@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/bobwong8975789757/golexer"
+	"github.com/bobwong89757/golexer"
 )
 
 // 自定义的token id

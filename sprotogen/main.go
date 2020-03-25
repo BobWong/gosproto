@@ -14,7 +14,7 @@ var paramEmmyLuaOut = flag.String("emmylua_out", "", "emmy lua output filename")
 var paramCSOut = flag.String("cs_out", "", "csharp output filename")
 var paramSprotoOut = flag.String("sproto_out", "", "standard sproto output filename")
 var paramPackage = flag.String("package", "", "package name in go files")
-var paramCellnetReg = flag.Bool("cellnet_reg", false, "for type go, generate sproto auto register entry for github.com/bobwong8975789757/cellnet")
+var paramCellnetReg = flag.Bool("cellnet_reg", false, "for type go, generate sproto auto register entry for github.com/bobwong89757/cellnet")
 
 //var paramForceAutoTag = flag.Bool("forceatag", false, "no ouput field tag in sp mode")
 var paramCSClassAttr = flag.String("cs_classattr", "", "add given string to class header as attribute in c sharp file")

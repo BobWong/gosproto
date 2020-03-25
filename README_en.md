@@ -37,16 +37,16 @@ object           | \struct
 
 # Schema parser and meta info
 
-https://github.com/bobwong8975789757/gosproto/tree/master/meta
+https://github.com/bobwong89757/gosproto/tree/master/meta
 
 # Code generator
 
-https://github.com/bobwong8975789757/gosproto/tree/master/sprotogen
+https://github.com/bobwong89757/gosproto/tree/master/sprotogen
 
 ## Install
 
 ```
-	go get -u -v github.com/bobwong8975789757/gosproto/sprotogen
+	go get -u -v github.com/bobwong89757/gosproto/sprotogen
 ```
 
 ## Usage
@@ -65,7 +65,7 @@ https://github.com/bobwong8975789757/gosproto/tree/master/sprotogen
 
 # Protobuf Schema --> sproto Schema convertor
 
-https://github.com/bobwong8975789757/gosproto/tree/master/pb2sproto
+https://github.com/bobwong89757/gosproto/tree/master/pb2sproto
 
 ## Features
 Keep all message leading comments and field trailing comments
@@ -73,15 +73,15 @@ Keep all message leading comments and field trailing comments
 ## Install
 
 ```
-	go get -u -v github.com/bobwong8975789757/gosproto/pb2sproto
+	go get -u -v github.com/bobwong89757/gosproto/pb2sproto
 ```
-Requires: github.com/bobwong8975789757/pbmeta
+Requires: github.com/bobwong89757/pbmeta
 
 ## Usage
 
 ```
-	# Use protoc and github.com/bobwong8975789757/pbmeta/protoc-gen-meta to generate protobuf meta info file(contains comments)
-	# see github.com/bobwong8975789757/gosproto/pb2sproto/Make.bat
+	# Use protoc and github.com/bobwong89757/pbmeta/protoc-gen-meta to generate protobuf meta info file(contains comments)
+	# see github.com/bobwong89757/gosproto/pb2sproto/Make.bat
 	
 	# Use meta info to generate sproto file
 	pb2sproto --pbmeta=meta.pb --outdir=.	
@@ -93,7 +93,7 @@ Due to sproto not support float field type, all float double format will convert
 
 # Example
 
-https://github.com/bobwong8975789757/gosproto/tree/master/example
+https://github.com/bobwong89757/gosproto/tree/master/example
 
 ```golang
 	input := &AddressBook{
@@ -144,7 +144,7 @@ https://github.com/bobwong8975789757/gosproto/tree/master/example
 # Test
 
 ```golang
-go test github.com/bobwong8975789757/gosproto
+go test github.com/bobwong89757/gosproto
 ```
 
 
@@ -152,13 +152,13 @@ go test github.com/bobwong8975789757/gosproto
 
 
 ```
-$ go test -bench . github.com/bobwong8975789757/gosproto
+$ go test -bench . github.com/bobwong89757/gosproto
 BenchmarkEncode-8         	  500000	      2498 ns/op
 BenchmarkDecode-8         	  500000	      3134 ns/op
 BenchmarkEncodePacked-8   	  500000	      2894 ns/op
 BenchmarkDecodePacked-8   	  500000	      3480 ns/op
 PASS
-ok  	github.com/bobwong8975789757/gosproto	6.162s
+ok  	github.com/bobwong89757/gosproto	6.162s
 ```
 
 * xjdrew/gosproto Version

@@ -1,6 +1,6 @@
 package meta
 
-import "github.com/bobwong8975789757/golexer"
+import "github.com/bobwong89757/golexer"
 
 // 自定义的token id
 const (
