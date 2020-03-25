@@ -3,7 +3,7 @@ set CURR_DIR=%cd%
 : Build generator
 cd ..\..\..\..\..
 set GOPATH=%cd%
-go build -o %CURR_DIR%\sprotogen.exe github.com/davyxu/gosproto/sprotogen
+go build -o %CURR_DIR%\sprotogen.exe github.com/bobwong8975789757/gosproto/sprotogen
 @IF %ERRORLEVEL% NEQ 0 pause
 cd %CURR_DIR%
 

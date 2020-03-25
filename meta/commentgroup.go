@@ -3,7 +3,7 @@ package meta
 import (
 	"fmt"
 
-	"github.com/davyxu/golexer"
+	"github.com/bobwong8975789757/golexer"
 )
 
 type TaggedComment struct {

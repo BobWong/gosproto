@@ -6,7 +6,7 @@ import (
 	"bytes"
 	"reflect"
 
-	"github.com/davyxu/gosproto"
+	"github.com/bobwong8975789757/gosproto"
 )
 
 type PhoneNumber struct {
